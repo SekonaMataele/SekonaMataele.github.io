@@ -59,3 +59,12 @@ a:hover {
     color: rgb(1, 0, 5);
     background-color: rgb(189, 251, 43);
 }
+
+.logo {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.logo:hover {
+    cursor: default;
+}

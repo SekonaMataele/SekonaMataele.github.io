@@ -1,3 +1,6 @@
+/* style sheet for website */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
 /* Target whole page */
 * {
     margin: 0;
@@ -5,5 +8,27 @@
 }
 
 body {
-    
+    background-color: #000001;
+    font-family: "Merriweather", serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+    color: rgba(27, 45, 61, 0.822);
+}
+
+/* transistions */
+
+a, .btn {
+    transistion: all 300ms ease;
+
+}
+
+/*  Desktop nav */
+
+nav, nav-links {
+    display: flex;
 }

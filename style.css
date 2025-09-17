@@ -25,7 +25,7 @@ p {
 
 a, .btn {
     transition: all 300ms ease;
-
+    display: inline-block;
 }
 
 /*  Desktop nav */
@@ -55,6 +55,7 @@ a {
 
 a:hover {
     font-size: 1.5rem;
+    transform: scaleY(1.2);
     color: rgb(1, 0, 5);
     background-color: rgb(189, 251, 43);
 }
